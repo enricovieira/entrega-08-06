@@ -1,0 +1,127 @@
+html,body,header,div,h1,nav,ul,li,a,img{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: inter;
+}
+body{
+    background-color: #e9e7e7;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+  .menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 34px;
+  }
+
+  .menu-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  .menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 46px;
+    transform:translateX(30px)
+  }
+
+  .menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+  }
+
+  .menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  main ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  main ul li{
+      border: solid #ffffff;
+      background-color: #ffffff;
+      border-radius: 8px;
+      width: 24%;
+      height: 450px;
+      left: 130px;
+      top: 114px;   
+      object-fit: contain;
+      margin-bottom: 16px;
+  }
+
+  main ul li img{
+      
+      object-fit: contain;    
+      width: 209px;
+      height: 159px;
+      left: 173px;
+      top: 157px;
+      margin: 43px 49px 0px 43px;
+  }
+
+  main ul li h2{
+    width: 249px;
+    height: 81px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 21px;
+    margin-right: 18px;
+    margin-top: 31px;
+  }
+
+  main ul li strong{
+    width: 70px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-right: 256px;
+    margin-left: 21px;
+  }
+
+  main ul li a{
+    padding: 0 46px;
+    width: 0 20px;
+    height: 48px;
+    color: #ffffff;
+    background: #4C6EF5;
+    border:solid #4C6EF5;
+    border-radius: 8px;
+    margin-top: 26px;
+    margin-right: 8px;
+    margin-bottom: 26px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center
+  }
